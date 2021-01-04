@@ -38,7 +38,8 @@ body {
 .content {
   background-color: #ddd;
   padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
+  height: 400px; 
+/* Should be removed. Only for demonstration */
 }
 
 /* Style the footer */
@@ -46,3 +47,20 @@ body {
   background-color: #f1f1f1;
   padding: 10px;
 }
+/* image style*/
+.gallery-demo
+{
+	margin: 6px;
+	border: 2px solid #ccc;
+	float: left;
+	width: 200px;
+}
+.gallery-demo img
+{
+	width: 100%;
+	height: auto;
+}
+.desc
+{
+	padding: 5px;
+	text-align:center;
