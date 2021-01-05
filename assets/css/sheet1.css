@@ -34,6 +34,20 @@ body {
   color: black;
 }
 
+/* Search Bar  */
+.topnav .search-bar
+{
+	float: center;
+}
+
+.topnav input[type=text]
+{
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 14 px;
+	border: none;
+}
+
 /* Style the content */
 .content {
   background-color: #ddd;
