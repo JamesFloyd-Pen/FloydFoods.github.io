@@ -5,14 +5,14 @@ class Navbar extends Component {
     render() { 
         console.log('NavBar -Rendered');
         return (
-            <nav class="topNavBar topNavBar-expand-lg topNavBar-light bg-light">
+            <nav class="topNavBar">
                 <div class="container-fluid"> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="#">Floyd Floods</a>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav">
                             <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
@@ -23,6 +23,12 @@ class Navbar extends Component {
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                             </li>
                         </ul>
+                        <form class="search-bar"> 
+                            <input type="text" placeholder="Search.." name="Search">
+                            
+                            </input>
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
         
                     </div>
                 </div>
