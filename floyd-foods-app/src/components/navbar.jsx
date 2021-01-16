@@ -5,7 +5,7 @@ class Navbar extends Component {
     render() { 
         console.log('NavBar -Rendered');
         return (
-            <nav class="topNavBar">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container-fluid"> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@ class Navbar extends Component {
                             </li>
                         </ul>
                         <form class="search-bar"> 
-                            <input type="text" placeholder="Search.." name="Search">
+                            <input class="search-control me-2" type="text" placeholder="Search.." name="Search">
                             
                             </input>
                             <button class="btn btn-outline-success" type="submit">Search</button>

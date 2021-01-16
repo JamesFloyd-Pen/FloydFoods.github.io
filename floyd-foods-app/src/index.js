@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import NavBar from './components/navbar';
-import './css/index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
+//import './css/index.css';
 
 class App extends Component {
     render() {
