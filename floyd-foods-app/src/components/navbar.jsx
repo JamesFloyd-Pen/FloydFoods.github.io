@@ -5,8 +5,8 @@ class Navbar extends Component {
     render() { 
         console.log('NavBar -Rendered');
         return (
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <div class="container-fluid"> 
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+                <div class="container-fluid justify-content-center"> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
